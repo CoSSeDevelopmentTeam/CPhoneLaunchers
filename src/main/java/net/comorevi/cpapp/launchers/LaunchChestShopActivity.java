@@ -8,7 +8,7 @@ import net.comorevi.cphone.cphone.model.ModalResponse;
 import net.comorevi.cphone.cphone.model.Response;
 import net.comorevi.cphone.cphone.widget.activity.ReturnType;
 import net.comorevi.cphone.cphone.widget.activity.base.ModalActivity;
-import net.comorevi.moneyschestshop.util.DataCenter;
+import net.comorevi.np.moneys.chestshop.util.DataCenter;
 
 public class LaunchChestShopActivity extends ModalActivity {
 
