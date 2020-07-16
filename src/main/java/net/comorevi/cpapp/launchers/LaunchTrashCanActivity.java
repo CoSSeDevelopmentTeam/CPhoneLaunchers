@@ -32,7 +32,6 @@ public class LaunchTrashCanActivity extends ModalActivity {
         for (int i = 0; i < 4; i++) {
             arm[i] = bundle.getCPhone().getPlayer().getInventory().getArmorItem(i);
         }
-        bundle.getCPhone().getPlayer().getInventory().clearAll();
         offhand = bundle.getCPhone().getPlayer().getOffhandInventory().getItem(0);
     }
 
@@ -53,6 +52,9 @@ public class LaunchTrashCanActivity extends ModalActivity {
         player.getInventory().clearAll();
 
         player.getOffhandInventory().addItem(offhand);
+        for (int i = 0; i < 4; i++) {
+            player.getInventory().setArmorItem(i, arm[i]);
+        }
         player.getInventory().sendArmorContents(player);
 
         Item cphoneItem = Item.get(SharingData.triggerItemId);
