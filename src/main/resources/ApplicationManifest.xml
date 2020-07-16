@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--<!DOCTYPE manifest SYSTEM "https://raw.githubusercontent.com/CoSSeDevelopmentTeam/CPhone/master/CPhoneManifest.dtd">-->
+
+<manifest>
+    <application>
+        <title>Launchers</title>
+        <description>外部プラグイン(ChestGuard、ChestShop、Jobsなど)のフォームを呼び出します。</description>
+        <author>popkechupki</author>
+        <version>1.0.0</version>
+        <mcbeversion>1.16.1</mcbeversion>
+    </application>
+
+    <permission type="default"/>
+
+    <activity>
+        <name>MainActivity</name>
+        <main>net.comorevi.cpapp.launchers.MainActivity</main>
+    </activity>
+
+    <external-lang>
+        <lang region="en">
+            <title>Tools app</title>
+            <description>
+                External plug-ins (e.g., ChestGuard, ChestShop, Jobs, etc.) form Call.
+            </description>
+        </lang>
+        <lang region="ja">
+            <title>ツール アプリ</title>
+            <description>
+                外部プラグイン(ChestGuard、ChestShop、Jobsなど)のフォームを呼び出します。
+            </description>
+        </lang>
+    </external-lang>
+
+</manifest>

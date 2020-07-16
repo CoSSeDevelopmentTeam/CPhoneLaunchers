@@ -1,0 +1,30 @@
+<strings>
+    <string name="prefix">しふぉん>></string>
+    <!-- MainActivity -->
+    <string name="main_title">ランチャー</string>
+    <string name="main_content">操作したいプラグインを選択してください。</string>
+    <string name="main_button0">チェストガード</string>
+    <string name="main_button1">チェストショップ</string>
+    <string name="main_button2">ジョブ</string>
+    <string name="main_button3">インベントリ クリーナー</string>
+    <!-- LaunchChestGuardActivity -->
+    <string name="cg_title">チェストガード</string>
+    <string name="cg_content">チェスト保護の内容確認や編集するモードを有効化・無効化します。操作が終了したら無効化してください。</string>
+    <string name="cg_button1">保護モードの有効化/無効化</string>
+    <string name="cg_button2">もどる</string>
+    <string name="cg_enabled">準備した看板に触れると操作パネルが開きます。操作が終わったらしふぉんアプリから無効化してください。</string>
+    <string name="cg_disabled">ショップ作成モードを無効化しました。</string>
+    <!-- LaunchChestShopActivity -->
+    <string name="cs_title">チェストショップ</string>
+    <string name="cs_content">チェストに隣接した看板の1行目に「cshop」、2行目に自分の名前を入力してください。&#xA;以上の操作を完了したらしたのボタンを押して作成モードを有効化し、対象の看板に触れます。&#xA;ショップを作成した後は再度アプリを開き、下のボタンから作成モードを無効化してください。</string>
+    <string name="cs_button1">作成モードの有効化/無効化</string>
+    <string name="cs_button2">もどる</string>
+    <string name="cs_enabled">準備した看板に触れると操作パネルが開きます。操作が終わったらしふぉんアプリから無効化してください。</string>
+    <string name="cs_disabled">ショップ作成モードを無効化しました。</string>
+    <!-- LaunchTrashCanActivity -->
+    <string name="tc_title">インベントリ クリーナー</string>
+    <string name="tc_content">インベントリ内のアイテムを消去します。以下のアイテムが消去されます。&#xA;・しふぉんと防具及びオフハンドにあるアイテムを除く全てのアイテム</string>
+    <string name="tc_button1">消去する</string>
+    <string name="tc_button2">キャンセル</string>
+    <string name="tc_home_message">アイテムを削除しました。</string>
+</strings>
