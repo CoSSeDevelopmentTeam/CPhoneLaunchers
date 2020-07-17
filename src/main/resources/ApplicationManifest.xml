@@ -19,13 +19,13 @@
 
     <external-lang>
         <lang region="en">
-            <title>Tools app</title>
+            <title>Tools</title>
             <description>
                 External plug-ins (e.g., ChestGuard, ChestShop, Jobs, etc.) form Call.
             </description>
         </lang>
         <lang region="ja">
-            <title>ツール アプリ</title>
+            <title>ツール/Tools</title>
             <description>
                 外部プラグイン(ChestGuard、ChestShop、Jobsなど)のフォームを呼び出します。
             </description>

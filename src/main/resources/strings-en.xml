@@ -13,7 +13,7 @@
     <string name="cg_button1">Enable/Disable Protection Mode</string>
     <string name="cg_button2">Back</string>
     <string name="cg_enabled">When you touch the prepared signage, the control panel will open. Deactivate it from the LAFUN app when you are done with the operation.</string>
-    <string name="cg_disabled">Shop creation mode has been disabled.</string>
+    <string name="cg_disabled">Edit protection mode has been disabled.</string>
     <!-- LaunchChestShopActivity -->
     <string name="cs_title">ChestShop</string>
     <string name="cs_content">1. Enter "cshop" on the first line of the sign adjacent to the chests and your name on the second line.&#xA;2. When you have completed the above operation, press the just button to activate the create mode and touch the target sign.&#xA;3. After creating the shop, open the app again and disable the creation mode by clicking the button below.</string>
