@@ -42,7 +42,7 @@ public class MainActivity extends ListActivity {
                 new LaunchChestShopActivity(getManifest()).start(bundle);
                 return ReturnType.TYPE_CONTINUE;
             case 2:
-                FormHandler.getInstance().sendJobsHome(listResponse.getPlayer(), FormHandler.EnumPlayerClient.CPHONE);
+                FormHandler.getInstance().sendJobsHome(listResponse.getPlayer(), FormHandler.PlayerClient.CPHONE);
                 return ReturnType.TYPE_IGNORE;
             case 3:
                 new LaunchTrashCanActivity(getManifest()).start(bundle);
